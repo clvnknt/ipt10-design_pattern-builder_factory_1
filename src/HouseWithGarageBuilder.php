@@ -2,14 +2,6 @@
 
 namespace App;
 
-use App\Application;
-use App\Director;
-use App\HouseBuilder;
-use App\HouseWithGardenBuilder;
-use App\HouseWithGarageBuilder;
-use App\HouseWithSwimmingPoolBuilder;
-use App\HouseWithFancyStatuesBuilder;
-
 class HouseWithGarageBuilder implements HouseBuilder
 {
     private $product;
