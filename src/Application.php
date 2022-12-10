@@ -44,9 +44,5 @@ class Application
         echo "House With Fancy Statues\n";
         $director->makeHouseWithFancyStatues();
         $fancyStatuesBuilder->getResult()->listParts();
-
-        echo "House\n";
-        $director->makeHouse();
-        $fancyStatuesBuilder->getResult()->listParts();
     }
 }
